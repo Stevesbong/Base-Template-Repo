@@ -1,0 +1,16 @@
+
+// FLEX LAYOUT MIXIN
+@mixin flexlayout ($disp: flex) {
+    display: $disp;
+    @content;
+}
+
+// MEDIA QUERY MIXIN
+@mixin mq($break) {
+    // WAY TO GET THE BALUE ASSOCIATED WITH A KEY
+    // MAP-GET($MAP, $KEY) RETURNS A VALUE IN THE MAP
+    $value: map-get( $breakpoints, $break );
+    @media ( min-width: $value ) {
+        @content;
+    }
+}
