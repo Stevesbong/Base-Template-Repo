@@ -14,3 +14,15 @@
         @content;
     }
 }
+
+// BASIC LIGHTEN BAKCGROUND HOVER
+@mixin backgroundhover($color, $lighteness: 15%) {
+    &:hover {
+        background-color: lighten($color, $lighteness)
+    }
+}
+
+// BASIC TRANSITION MIXIN
+@mixin transmixin ($prop: all, $time, $func: 'ease') {
+    transition: $prop $time $func;
+}

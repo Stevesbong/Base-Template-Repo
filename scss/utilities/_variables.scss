@@ -3,7 +3,12 @@
 /* ============================================= */
 
 $color-black: #222222;
+$color-neutral: #445069;
+$color-neutral-light: #D2D2D2;
+$color-lose: #D94545;
+
 $color-navy: #36486b;
+$color-navy-lighter: #5b85b7;
 $color-purple: #6645dd;
 $color-puple-lighter: #7477BF;
 $color-cyan: #076b70;
@@ -16,13 +21,15 @@ $color-orange: #f47f16;
 $color-orange-lighter: #f7ad19;
 $color-red-orange: #fd7856;
 $color-red-orange-lighter: #fd9f85;
-$color-gray: #666666;
-$color-gray-lighter: #757575;
+$color-gray: #757575;
+$color-gray-lighter: #d6d6d6;
+$color-gray-lightest:#f5f5f5;
 
-$color-white-gray: #E6E0E0;
+$color-white-gray: #f8f5f5;
 $color-blue: #0f65ef;
 $color-skyblue: #b7d7e8;
 $color-green: #68af15;
+$color-green-lighter: #78CF82;
 $color-pink:#e40c78;
 $color-green-cyan: #80e8d1;
 
@@ -59,5 +66,7 @@ $github-color: #24292E;
 $breakpoints: (
     'sm': 576px,
     'med': 768px,
-    'lg': 1024px,
+    'lg': 992px,
+    'xlg': 1200px
 );
+
