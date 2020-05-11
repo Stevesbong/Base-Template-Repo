@@ -58,15 +58,27 @@ $github-color: #24292E;
 
 
 /* ============================================= */
-/*             Media Query Points                */
+/*             Media Query Points:               */
+/*                                               */
+/*     Without media query is less than 576px    */
+/*            using min-width: value,            */
+/*            'sm' is 576px ~ 767px              */
+/*           'med' is 768px ~ 991px              */
+/*           'lg' is 992px ~ 1199px              */
+/*              'xlg' is 1200px ~                */
 /* ============================================= */
 
-
-// MAP BRAKEPOINTS FOR MEDIA QUERY
 $breakpoints: (
+
+// Small devices (landscape phones, 576px and up)
     'sm': 576px,
+
+// Medium devices (landscape tablets, 768px and up)
     'med': 768px,
+
+// Large devices (laptops/desktops, 992px and up)
     'lg': 992px,
+
+// Extra large devices (large laptops and desktops, 1200px and up)
     'xlg': 1200px
 );
-
